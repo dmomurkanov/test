@@ -24,3 +24,6 @@ class TemplateService:
         }
         
         return render(request, context=context, template_name="base.html")
+
+
+
