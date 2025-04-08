@@ -28,4 +28,4 @@ class TemplateService:
 
 
 def hello_world(request):
-    return HttpResponse("Hello, world. You're at the polls page.")
+    return HttpResponse("Hello, world. You're at the polls page!")
