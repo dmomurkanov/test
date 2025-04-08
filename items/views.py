@@ -27,5 +27,5 @@ class TemplateService:
         return render(request, context=context, template_name="base.html")
 
 
-def hello_world(request):
-    return HttpResponse("Hello, world. You're at the polls page!")
+def req():
+    return ""
