@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
 from items.models import Category, Item, SubCategory, Characteristic, Cart, CartItem
 
@@ -27,3 +28,5 @@ class TemplateService:
 
 
 
+def hello():
+    return HttpResponse("Hello World!")
