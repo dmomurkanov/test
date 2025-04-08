@@ -174,3 +174,4 @@ db.sqlite3
 footer
 # End of https://www.toptal.com/developers/gitignore/api/django
 items/img_box
+.idea
